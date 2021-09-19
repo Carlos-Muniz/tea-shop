@@ -1,0 +1,44 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+   height: 69px;
+   width: 100%;
+   border-bottom: 1px solid seashell;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+header ul li{
+    display: inline-flex;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mission {
+    padding-top: 70px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
