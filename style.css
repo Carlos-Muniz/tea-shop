@@ -7,11 +7,17 @@ html {
     text-align: center;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    }
+
 header {
    height: 69px;
    width: 100%;
    border-bottom: 1px solid seashell;
-   display: inline-flex;
+   display: flex;
+   justify-content: space-between;
    position: fixed;
 }
 
@@ -24,8 +30,15 @@ header img {
 header ul li{
     display: inline-flex;
     text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #mission {
     padding-top: 70px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
