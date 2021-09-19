@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+   height: 69px;
+   width: 100%;
+   border-bottom: 1px solid seashell;
+   display: inline-flex;
+   position: fixed;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+header ul li{
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+#mission {
+    padding-top: 70px;
+}
