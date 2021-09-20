@@ -15,11 +15,13 @@ body {
 header {
    height: 69px;
    width: 100%;
+   z-index: 99;
    border-bottom: 1px solid seashell;
    display: flex;
    justify-content: space-between;
    position: fixed;
    align-items: center;
+   background-color: black;
 }
 
 header img {
@@ -39,13 +41,24 @@ header ul li{
     background-image: url("images/img-mission-background.jpg");
     height: 700px;
     width: 1200px;
+    border: 1px solid red;
+    top: 70px;
+    display: block;
+    margin: auto auto;
+    z-index: 1;
+    text-align: center;
+   
 }
 
 #box {
     background-color: black;
+    width: 1200px;
+    display: table-cell;
+    vertical-align: middle;
+    
 }
 
 img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 200px;
 }
