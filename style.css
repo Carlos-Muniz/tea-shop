@@ -41,7 +41,6 @@ header ul li {
   background-image: url("images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  border: 1px solid red;
   top: 70px;
   display: block;
   margin: auto auto;
@@ -66,11 +65,35 @@ header ul li {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #tea img {
   width: 300px;
   height: 200px;
   margin-bottom: 10px;
+}
+
+#locations {
+  background-image: url("images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+#addresses {
+  display: inline-flex;
+}
+
+.blocks {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 0 20px;
 }
